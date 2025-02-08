@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiaAmore</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="passwordScreen" class="fade-in">
+        <h2>Enter Password to Access</h2>
+        <input type="password" id="passwordInput" placeholder="Enter Password">
+        <button onclick="checkPassword()">Unlock</button>
+        <p id="error" class="hidden">Incorrect password! Try again.</p>
+    </div>
+
+    <div id="content" class="hidden fade-in">
+        <div class="container">
+            <h1>Welcome to MiaAmore 💖</h1>
+            <h2>For My Love 💕</h2>
+            <p class="message">Do you accept my love?</p>
+            <div class="buttons">
+                <button id="yesBtn">Yes 💕</button>
+                <button id="noBtn">No 💔</button>
+            </div>
+            <p id="response" class="hidden"></p>
+            
+            <!-- Love Letter Section -->
+            <div class="letter">
+                <h3>My Love Letter to You 💌</h3>
+                <p id="loveLetter">Dear Trisha,<br>
+                Every moment with you is magical, and I cherish you more than words can express. You are my happiness, my love, and my forever. 💖<br>
+                Love, Your Amit</p>
+            </div>
+            
+            <!-- Picture Gallery -->
+            <div class="gallery">
+                <h3>Our Beautiful Memories 📸</h3>
+                <div class="image-container">
+                    <img src="Snapchat-35664153.jpg" alt="Memory 1">
+                    <img src="Snapchat-1207063866.jpg" alt="Memory 2">
+                    <img src="Snapchat-386649646.jpg" alt="Memory 3">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
